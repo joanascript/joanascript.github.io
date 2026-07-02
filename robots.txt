@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joanascript.github.io/sitemap.xml
