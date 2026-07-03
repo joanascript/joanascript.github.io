@@ -1,6 +1,5 @@
 :root {
   --page: #fffdf7;
-  --surface: #fffdf7;
   --ink: #1a1a1a;
   --ink2: #3a352c;
   --line: #1a1a1a;
@@ -25,9 +24,6 @@
   --pill2-text: #fffdf7;
   --pill2-border: #1a1a1a;
   --frame-bg: #fffdf7;
-  --ph-border: #c4bbab;
-  --ph-bg: #fffaf0;
-  --ph-ink: #a89c84;
   --cta-bg: #ffd84d;
   --cta-line: 0 solid transparent;
   --cta-body: #5c5230;
@@ -53,7 +49,6 @@
 }
 [data-theme="dark"] {
   --page: #1a1a1c;
-  --surface: #262629;
   --ink: #f0f0f2;
   --ink2: #cfcfd6;
   --line: #565660;
@@ -75,9 +70,6 @@
   --pill2-text: #a78bff;
   --pill2-border: #a78bff;
   --frame-bg: #42424a;
-  --ph-border: #3d3d44;
-  --ph-bg: #202023;
-  --ph-ink: #a2a2aa;
   --cta-bg: #202024;
   --cta-line: 1.5px solid rgba(255, 255, 255, 0.14);
   --cta-body: #cfcfd6;
@@ -631,41 +623,6 @@ button:focus-visible {
   max-width: 580px;
 }
 
-/* ---------- WORK ---------- */
-.work {
-  padding: 56px 0 16px;
-}
-.work-label {
-  margin-bottom: 24px;
-}
-.work-grid {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-.work-card {
-  flex: 1;
-  min-width: 200px;
-  height: 280px;
-  border: 3px dashed var(--ph-border);
-  border-radius: 24px;
-  background: var(--ph-bg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  color: var(--ph-ink);
-}
-.work-card .plus {
-  font-size: 40px;
-}
-.work-card .label {
-  font-family: "Gochi Hand", cursive;
-  font-weight: 400;
-  font-size: 24px;
-}
-
 /* ---------- CTA ---------- */
 .cta {
   margin: 56px 0 24px;
@@ -803,12 +760,6 @@ footer span {
   }
   .photo-frame .swatch {
     height: 180px;
-  }
-  .work-grid {
-    flex-direction: column;
-  }
-  .work-card {
-    min-width: 0;
   }
   .cta {
     flex-direction: column;
