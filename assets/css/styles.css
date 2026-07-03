@@ -99,6 +99,7 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size: 10px;
 }
 body {
   margin: 0;
@@ -113,7 +114,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-9px);
+    transform: translateY(-0.9rem);
   }
 }
 @keyframes blink {
@@ -142,9 +143,9 @@ button:focus-visible {
 }
 
 .wrap {
-  max-width: 1240px;
+  max-width: 124rem;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 2.4rem;
 }
 
 /* ---------- NAV ---------- */
@@ -152,12 +153,12 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px 0;
+  padding: 2.6rem 0;
 }
 .logo {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 2.4rem;
   color: var(--ink);
   text-decoration: none;
 }
@@ -166,8 +167,8 @@ button:focus-visible {
 }
 .theme-toggle {
   cursor: pointer;
-  width: 44px;
-  height: 44px;
+  width: 4.4rem;
+  height: 4.4rem;
   border-radius: 50%;
   border: 2px solid var(--tog-border);
   background: var(--tog-bg);
@@ -201,13 +202,13 @@ button:focus-visible {
   margin-top: 8px;
   background: var(--hero-bg);
   border: var(--hero-line);
-  border-radius: 30px;
-  padding: 60px 56px;
+  border-radius: 3rem;
+  padding: 6rem 5.6rem;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 4rem;
 }
 .hero-copy {
   flex: 1;
@@ -219,7 +220,7 @@ button:focus-visible {
   display: inline-block;
   font-family: "Gochi Hand", cursive;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 3.4rem;
   color: var(--sun);
   transform: rotate(-4deg);
 }
@@ -229,29 +230,29 @@ button:focus-visible {
   font-size: clamp(34px, 4.6vw, 72px);
   line-height: 1.04;
   color: #fffdf7;
-  margin: 14px 0 0;
+  margin: 1.4rem 0 0;
   letter-spacing: -1.5px;
 }
 .hero p {
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 1.55;
   color: rgba(255, 255, 255, 0.75);
-  margin: 24px 0 0;
-  max-width: 440px;
+  margin: 2.4rem 0 0;
+  max-width: 44rem;
 }
 .hero-actions {
   display: flex;
-  gap: 14px;
-  margin-top: 34px;
+  gap: 1.4rem;
+  margin-top: 3.4rem;
   flex-wrap: wrap;
 }
 .btn {
   text-decoration: none;
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 17px;
-  border-radius: 30px;
-  padding: 14px 27px;
+  font-size: 1.7rem;
+  border-radius: 3rem;
+  padding: 1.4rem 2.7rem;
   display: inline-block;
   cursor: pointer;
   border: none;
@@ -270,31 +271,31 @@ button:focus-visible {
   color: #fffdf7;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.35);
-  padding: 12px 25px;
+  padding: 1.2rem 2.5rem;
 }
 
 .hero-art {
-  width: 380px;
+  width: 38rem;
   flex: none;
   position: relative;
-  height: 380px;
+  height: 38rem;
 }
 .blob-coral {
   position: absolute;
-  top: 6px;
-  right: -26px;
-  width: 200px;
-  height: 200px;
+  top: 0.6rem;
+  right: -2.6rem;
+  width: 20rem;
+  height: 20rem;
   background: var(--coral);
   border-radius: 50%;
   opacity: 0.9;
 }
 .blob-violet {
   position: absolute;
-  bottom: -26px;
-  left: -24px;
-  width: 150px;
-  height: 150px;
+  bottom: -2.6rem;
+  left: -2.4rem;
+  width: 15rem;
+  height: 15rem;
   background: var(--violet);
   border-radius: 50%;
   opacity: 0.85;
@@ -302,10 +303,10 @@ button:focus-visible {
 
 .mock {
   position: absolute;
-  top: 24px;
-  left: 12px;
-  right: 6px;
-  border-radius: 22px;
+  top: 2.4rem;
+  left: 1.2rem;
+  right: 0.6rem;
+  border-radius: 2.2rem;
   overflow: hidden;
   transform: rotate(-2deg);
 }
@@ -318,14 +319,14 @@ button:focus-visible {
 .mock-bar {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 11px 14px;
+  gap: 0.8rem;
+  padding: 1.1rem 1.4rem;
   background: #efece4;
   border-bottom: 2px solid #000;
 }
 .dot {
-  width: 11px;
-  height: 11px;
+  width: 1.1rem;
+  height: 1.1rem;
   border-radius: 50%;
   display: inline-block;
 }
@@ -345,31 +346,31 @@ button:focus-visible {
   justify-content: center;
   background: #fff;
   border: 2px solid #000;
-  border-radius: 20px;
-  padding: 5px 14px;
-  margin-left: 10px;
+  border-radius: 2rem;
+  padding: 0.5rem 1.4rem;
+  margin-left: 1rem;
 }
 .mock-url span {
   font-family: "JetBrains Mono", monospace;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #6a6458;
 }
 .mock-body {
-  padding: 22px 24px 24px;
+  padding: 2.2rem 2.4rem 2.4rem;
   background: #fff;
 }
 .status-badge {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 0.9rem;
   background: var(--sun);
   border: 2px solid #000;
-  border-radius: 22px;
-  padding: 6px 14px;
+  border-radius: 2.2rem;
+  padding: 0.6rem 1.4rem;
 }
 .status-badge .pulse {
-  width: 11px;
-  height: 11px;
+  width: 1.1rem;
+  height: 1.1rem;
   background: var(--green);
   border-radius: 50%;
   display: inline-block;
@@ -377,30 +378,30 @@ button:focus-visible {
 .status-badge span:last-child {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 1px;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #1a1a1a;
 }
 .currently-label {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
   text-transform: uppercase;
   color: var(--coral);
-  margin: 16px 0 12px;
+  margin: 1.6rem 0 1.2rem;
 }
 .currently-row {
   display: flex;
   align-items: center;
-  gap: 11px;
-  margin-bottom: 10px;
+  gap: 1.1rem;
+  margin-bottom: 1rem;
 }
 .currently-row span:last-child {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #1a1a1a;
 }
 
@@ -413,21 +414,21 @@ button:focus-visible {
 .term-bar {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 11px 14px;
+  gap: 0.8rem;
+  padding: 1.1rem 1.4rem;
   background: #232327;
   border-bottom: 1px solid #3a3a40;
 }
 .term-bar span:last-child {
-  margin-left: 8px;
+  margin-left: 0.8rem;
   font-family: "JetBrains Mono", monospace;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #8a8a92;
 }
 .term-body {
-  padding: 20px 22px 22px;
+  padding: 2rem 2.2rem 2.2rem;
   font-family: "JetBrains Mono", monospace;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.85;
 }
 .term-body .rule {
@@ -438,8 +439,8 @@ button:focus-visible {
 }
 .cursor {
   display: inline-block;
-  width: 9px;
-  height: 16px;
+  width: 0.9rem;
+  height: 1.6rem;
   background: #f0f0f2;
   transform: translateY(3px);
   animation: blink 1.1s step-end infinite;
@@ -448,81 +449,81 @@ button:focus-visible {
 .sparkle {
   position: absolute;
   color: var(--sun);
-  font-size: 28px;
+  font-size: 2.8rem;
   animation: floaty 4.5s ease-in-out infinite;
 }
 .sparkle.two {
   color: var(--coral);
-  font-size: 20px;
+  font-size: 2rem;
   animation-duration: 5.2s;
   animation-delay: -1.4s;
 }
 .deco-toggle {
   position: absolute;
-  top: -20px;
-  right: 34px;
-  width: 66px;
-  height: 34px;
+  top: -2rem;
+  right: 3.4rem;
+  width: 6.6rem;
+  height: 3.4rem;
   background: var(--deco-toggle);
   border: 2.5px solid var(--deco-border);
-  border-radius: 20px;
+  border-radius: 2rem;
   box-shadow: 3px 3px 0 var(--deco-shadow);
   transform: rotate(8deg);
   z-index: 3;
 }
 .deco-toggle span {
   position: absolute;
-  top: 2.5px;
-  right: 3px;
-  width: 25px;
-  height: 25px;
+  top: 0.25px;
+  right: 0.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background: var(--deco-knob);
   border: 2px solid var(--deco-border);
   border-radius: 50%;
 }
 .deco-badge {
   position: absolute;
-  top: -18px;
-  left: -10px;
+  top: -1.8rem;
+  left: -1rem;
   background: var(--deco-badge);
   border: 2.5px solid var(--deco-border);
-  border-radius: 22px;
-  padding: 8px 18px;
+  border-radius: 2.2rem;
+  padding: 0.8rem 1.8rem;
   box-shadow: 3px 3px 0 var(--deco-shadow);
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: var(--deco-badge-text);
   transform: rotate(-6deg);
   z-index: 3;
 }
 .deco-chip {
   position: absolute;
-  bottom: 8px;
-  left: -42px;
+  bottom: 0.8rem;
+  left: -4.2rem;
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 0.7rem;
   background: var(--deco-chip);
   border: 2.5px solid var(--deco-border);
-  border-radius: 11px;
-  padding: 7px 12px;
+  border-radius: 1.2rem;
+  padding: 0.7rem 1.2rem;
   box-shadow: 3px 3px 0 var(--deco-shadow);
   transform: rotate(5deg);
   z-index: 3;
 }
 .deco-chip i {
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
   background: var(--coral);
   border: 2px solid var(--deco-border);
-  border-radius: 3px;
+  border-radius: 0.3rem;
   display: inline-block;
 }
 .deco-chip span {
   font-family: "JetBrains Mono", monospace;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 1.2rem;
   color: var(--deco-ink);
 }
 
@@ -530,8 +531,8 @@ button:focus-visible {
 .eyebrow {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  letter-spacing: 1.5px;
+  font-size: 2.2rem;
+  letter-spacing: 0.15rem;
   color: var(--coral);
   text-transform: uppercase;
   flex: none;
@@ -539,26 +540,26 @@ button:focus-visible {
 
 /* ---------- WHAT I DO ---------- */
 .what-i-do {
-  padding: 56px 0 16px;
+  padding: 5.6rem 0 1.6rem;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 .pills {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 1.2rem;
 }
 .pill {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: var(--ink);
   background: var(--pill-bg);
   border: 2px solid var(--line);
-  border-radius: 34px;
-  padding: 10px 22px;
+  border-radius: 3.4rem;
+  padding: 1rem 2.2rem;
   box-shadow: var(--pill-shadow);
 }
 .pill.p1 {
@@ -574,26 +575,26 @@ button:focus-visible {
 
 /* ---------- ABOUT ---------- */
 .about {
-  padding: 48px 0 16px;
+  padding: 4.8rem 0 1.6rem;
   display: flex;
   align-items: flex-start;
-  gap: 48px;
+  gap: 4.8rem;
   flex-wrap: wrap;
 }
 .photo-frame {
   flex: none;
-  width: 300px;
+  width: 30rem;
   background: var(--frame-bg);
   border: 3px solid var(--line);
-  border-radius: 20px;
+  border-radius: 2rem;
   box-shadow: 6px 6px 0 var(--shadow);
-  padding: 16px 16px 52px;
+  padding: 1.6rem 1.6rem 5.2rem;
   transform: rotate(-3deg);
 }
 .photo-frame .swatch {
-  height: 300px;
+  height: 30rem;
   border: 2px solid var(--ink);
-  border-radius: 10px;
+  border-radius: 1rem;
   background: repeating-linear-gradient(
     45deg,
     #ffe7a0,
@@ -604,7 +605,7 @@ button:focus-visible {
 }
 .about-copy {
   flex: 1;
-  min-width: 280px;
+  min-width: 28rem;
 }
 .about-copy h2 {
   font-family: "Bricolage Grotesque", sans-serif;
@@ -612,38 +613,38 @@ button:focus-visible {
   font-size: clamp(28px, 3vw, 40px);
   line-height: 1.12;
   color: var(--ink);
-  margin: 16px 0 18px;
-  letter-spacing: -0.5px;
+  margin: 1.6rem 0 1.8rem;
+  letter-spacing: -0.05rem;
 }
 .about-copy p {
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 1.6;
   color: var(--ink2);
-  margin: 0 0 18px;
-  max-width: 580px;
+  margin: 0 0 1.8rem;
+  max-width: 58rem;
 }
 
 /* ---------- CTA ---------- */
 .cta {
-  margin: 56px 0 24px;
+  margin: 5.6rem 0 2.4rem;
   background: var(--cta-bg);
   border: var(--cta-line);
-  border-radius: 30px;
-  padding: 32px 56px;
+  border-radius: 3rem;
+  padding: 3.2rem 5.6rem;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 .cta-ring {
   position: absolute;
-  top: -40px;
-  left: -40px;
-  width: 180px;
-  height: 180px;
+  top: -4rem;
+  left: -4rem;
+  width: 18rem;
+  height: 18rem;
   border: 5px solid var(--cta-ring);
   border-radius: 50%;
 }
@@ -657,34 +658,34 @@ button:focus-visible {
   line-height: 1.08;
   color: var(--ink);
   margin: 0;
-  letter-spacing: -1px;
+  letter-spacing: -0.1rem;
 }
 .cta-copy p {
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 1.5;
   color: var(--cta-body);
-  margin: 16px 0 0;
+  margin: 1.6rem 0 0;
 }
 .cta-right {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 1.8rem;
   align-items: center;
 }
 .cta-btn {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
   text-decoration: none;
   background: var(--cta-btn-bg);
   color: var(--cta-btn-text);
   border: 2px solid var(--cta-btn-border);
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  border-radius: 34px;
-  padding: 16px 38px;
+  font-size: 2.2rem;
+  border-radius: 3.4rem;
+  padding: 1.6rem 3.6rem;
   box-shadow: var(--cta-btn-shadow);
   white-space: nowrap;
   cursor: pointer;
@@ -695,20 +696,20 @@ button:focus-visible {
 }
 .socials {
   display: flex;
-  gap: 12px;
+  gap: 1.2rem;
 }
 .chip {
-  width: 48px;
-  height: 48px;
+  width: 4.8rem;
+  height: 4.8rem;
   border: 2px solid var(--line);
-  border-radius: 14px;
+  border-radius: 1.4rem;
   background: var(--chip-bg);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: var(--ink);
   text-decoration: none;
 }
@@ -716,25 +717,25 @@ button:focus-visible {
 /* ---------- FOOTER ---------- */
 footer {
   text-align: center;
-  padding: 8px 0 48px;
+  padding: 0.8rem 0 4.8rem;
 }
 footer span {
   font-family: "Gochi Hand", cursive;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 2.2rem;
   color: var(--foot);
 }
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 860px) {
   .wrap {
-    padding: 0 16px;
+    padding: 0 1.6rem;
   }
   .hero {
     flex-direction: column;
     align-items: stretch;
-    padding: 30px 22px 34px;
-    border-radius: 26px;
+    padding: 3rem 2.2rem 3.4rem;
+    border-radius: 2.6rem;
     gap: 0;
   }
   .hero-copy {
@@ -745,8 +746,8 @@ footer span {
   }
   .hero-art {
     width: 100%;
-    height: 300px;
-    margin-top: 24px;
+    height: 30rem;
+    margin-top: 2.4rem;
   }
   .mock {
     left: 0;
@@ -756,15 +757,15 @@ footer span {
     flex-direction: column;
   }
   .photo-frame {
-    width: 180px;
+    width: 18rem;
   }
   .photo-frame .swatch {
-    height: 180px;
+    height: 18rem;
   }
   .cta {
     flex-direction: column;
     align-items: flex-start;
-    padding: 30px 26px;
+    padding: 3rem 2.6rem;
   }
   .cta-right {
     align-items: flex-start;
